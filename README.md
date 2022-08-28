@@ -47,3 +47,22 @@
 - Start_value:increment:Not_higher_than
 - Operator is a function that's invoked by a symbol
 - A function is an operation invoked by the name
+
+### Combining and Transforming Matrices
+
+- Combine matrices to result into a new matrix
+- Transform a matrix you already have: Use the transposition operator
+- The prime symbol : '. Transposition operator
+
+### Arithmetic 
+
+- Array addition: There are special rules for arithmetic on arrays: 
+1. To add two matrix together we have to make sure that they have the same dimensions
+- Array multiplication: It is very similar to array addition: Z = X.*Y (Need dot)
+- Matrix multiplication: Very different from Array Multiplication: Z = X * Y
+1. Do not has the dot
+2. Operands must be "compatible": The width of the left operand of the matrix multiplication operator must be equal to the height of the right operand
+3. Calculation of each element of Z uses both multiplication AND addition 
+- Array division: There are two types of array divison:
+1. X./Y(Over)
+2. X.\Y(Under)  
