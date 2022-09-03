@@ -1,0 +1,32 @@
+% Introduction to Functions
+rand(3,4)
+%Create a function
+%edit
+%In another file
+%function myRand
+%a = 1+rand(3,4)*9
+%end     
+%Function I/O
+
+%Formal definition of Functions
+%Subfunctions
+% function [a, s] = myRand(low,high)
+% a =  low+rand(3,4)*righ;
+% s = sumAllElements(a);
+% end
+% function summa = sumAllElements(M)
+% v = M(:);
+% summa = sum(v);
+% end
+
+%Scope
+function [a, s] = myRand(low,high)
+a =  low+rand(3,4)*righ;
+s = sumAllElements(a);
+end
+
+function summa = sumAllElements(M)
+global v;
+v = M(:);
+summa = sum(v);
+end
