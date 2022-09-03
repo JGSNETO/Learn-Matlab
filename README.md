@@ -66,3 +66,23 @@
 - Array division: There are two types of array divison:
 1. X./Y(Over)
 2. X.\Y(Under)  
+
+## C1_W4
+
+### Introduction to Functions 
+
+- Matlab allows you to create built in function, just like original function
+- We create  function by using the Editor(edit command)
+- A function has its own private workspace and what happens in that workspace, stays in that workspace
+- The function declaration: what the worlds sees
+- function [out_arg1, out_arg2, ..] = function_name(in_arg1, in_arg2,..)
+- Use meaningful names that tell you something about what your function does
+- Do not use names of built-in functions, sqrt, plot, sin..
+- Advantages:
+- Functions allow you to break down large complex problems to smaller, more maneagable pieces
+- Functional decomposition 
+- Code reuse
+- Generality
+
+- Script is just a collection of MATLAB commands
+
