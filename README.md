@@ -86,3 +86,36 @@
 
 - Script is just a collection of MATLAB commands
 
+## C1_W5
+
+### Toolbox
+
+- Built-in functions
+- FUNCTION RETURNS 
+- zeros(N,M): zeros
+- ones(N,M): ones
+- eye(N,M): zeros except for the diagonal elements that are ones
+- rand(N,M): random numbers uniformly distributed in the range from 0 to 1
+- acos(x): Angle in radians whose cosine equals x
+- acot(x): Angle in radians whose cotangent equals x
+- asin(x): Angle in radians whose sine equals x
+- atan(x): Angle in radians whose tangent equals x
+- atan2(y,x): Four-quadrant angle in radians whose tangent equals y/x 
+- cos(x): Cosine of x (x in radians)
+- cot(x): Cotangent of x (x in radians)
+- sin(x): Sine of x (x in radians)
+- tan(x): Tangent of x (x in radians)
+- exp(x): e raised to the x power
+- log(x): Natural logarithm x
+- log2(x): Base-2 logarithm of x
+- log10(x): Base-10 logarithm of x
+- sqrt(x): Square root of 
+- abs(z): Absolute value of z
+- angle(z): Phase angle of z
+- conj(z): Complex conjugate of z
+- imag(z): Imaginary part of z
+- real(z): Real part of z
+
+- Polymorphism: If the type of an input argument to a function can vary from one call to another, it is called a "Polymorphic" function. Polymorphic means "having multiple forms", and it can save us a huge amount of work. 
+- Second form of polymorphism: Variation in the number of arguments from a call to call. 
+- Many built-in MATLAB functions employ the first of polymorphism by returning an output that is shaped like the input. 
