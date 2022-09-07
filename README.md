@@ -119,3 +119,5 @@
 - Polymorphism: If the type of an input argument to a function can vary from one call to another, it is called a "Polymorphic" function. Polymorphic means "having multiple forms", and it can save us a huge amount of work. 
 - Second form of polymorphism: Variation in the number of arguments from a call to call. 
 - Many built-in MATLAB functions employ the first of polymorphism by returning an output that is shaped like the input. 
+
+- When we start MATLAB and call rand, it always returns the same exact number: 0.8147
