@@ -121,3 +121,15 @@
 - Many built-in MATLAB functions employ the first of polymorphism by returning an output that is shaped like the input. 
 
 - When we start MATLAB and call rand, it always returns the same exact number: 0.8147
+
+### Debugging
+
+- It is easy to make mistakes
+- Syntax errors:
+1. Matlab catches these
+- Semantic erros:
+1. Some may cause erros that MATLAB can catch
+2. Some may cause the wrong result every time
+3. Some may only cause problems occasionally 
+
+- Matlab has built-in debugger(Tools)
