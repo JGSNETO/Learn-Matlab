@@ -133,3 +133,9 @@
 3. Some may only cause problems occasionally 
 
 - Matlab has built-in debugger(Tools)
+
+## C1_W6
+
+### Control flow
+
+- Sequential Control: Sequence of commands  excuted one after the other
