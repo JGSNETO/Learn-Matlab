@@ -139,3 +139,38 @@
 ### Control flow
 
 - Sequential Control: Sequence of commands  excuted one after the other
+- Control construct: A method by which MATLAB selects the next command to execute
+- Sequential control: default
+- Selection or Branching
+
+- IF STATEMENT
+- Most common selection construct
+- Begins with control statement   
+- if keyword followed by a condition
+- Ends with 'end' statement
+- In between: Statements to be executed if and only if condition is true
+
+- IF ELSE STATEMENT
+- Executing a different set of statement based on the condition
+
+- RELATIONAL OPERATORS
+- Produces a result that depends on the relation between its two operands
+- It can appers outside if-statement
+- == : is equal to
+- ~= : is not equal to
+- <  : is less than
+- >  : is greater than
+- >= : is greater than or equal to
+- <= : is less than or equal to 
+
+- LOGICAL VALUES:
+- Non-zero: true
+- Zero: false
+- MATLAB returns 1 for true
+
+- How to combine logical values ? Logical operators
+- && : and
+- || : or
+- ~  : not
+
+
