@@ -173,4 +173,36 @@
 - || : or
 - ~  : not
 
+- NESTED IF-STATEMENT 
+- If-staements can contain other if-statements
+
+### Variable number of function arguments
+
+- Polymorphic functions: Functions that behave differently based on
+- Number of input or output arguments 
+- Type of input or output arguments
+- Many built-in functions are polymorphic(Size, plot, sqrt)
+
+### Robustness
+
+- A function declaration specifies:
+- Name of the function
+- Number of input arguments 
+- Number of output arguments
+
+- Function code and documentation specify
+- What the function does
+- The type of the arguments
+- What the arguments represent
+
+- Robustness
+- A function is robust if it handles erroneous input and output arguments
+- Provides a meaningful error message
+
+- Comments
+- Extra text that is not part of the code
+- Extra information for human reader
+- Explain important or complicated parts of the program 
+- Provide documentation of your function 
+
 
