@@ -205,4 +205,9 @@
 - Explain important or complicated parts of the program 
 - Provide documentation of your function 
 
+### Persistent Variables
 
+- Variables:
+- Local
+- Global
+- Persistent: It is a local variable, but it is value persist from one call of the function to the next. Relatively rarely used. None of the bad side effects of global variables. None of the bad effects of global variables. 
