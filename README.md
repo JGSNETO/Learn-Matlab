@@ -211,3 +211,14 @@
 - Local
 - Global
 - Persistent: It is a local variable, but it is value persist from one call of the function to the next. Relatively rarely used. None of the bad side effects of global variables. None of the bad effects of global variables. 
+
+## C1_W7
+
+- Loop: The loop is a new control construct that makes it possible to repeat a block of code a number of times. 
+- MATLAB: Uses loops internally both to compute the result of the colon operator and to compute the sum of the elements
+of the vector n above
+- Implicit loop
+
+- MATLAB implements FOR-LOOP
+
+- While loop: For loops work well when we know the number of necessary iterations before the loop. 
