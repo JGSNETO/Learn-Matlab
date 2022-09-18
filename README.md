@@ -222,3 +222,36 @@ of the vector n above
 - MATLAB implements FOR-LOOP
 
 - While loop: For loops work well when we know the number of necessary iterations before the loop. 
+- Logical Index: 
+- Problem: Given a vector, v, of scalars, create a second, w, that contains only the non-negative elements of v.
+Solution:
+
+w=[];
+jj=0;
+for ii=1:length(v); 
+  if v(ii) >=0 
+    jj = jj+1;
+    w(jj) = v(ii);
+  end
+end
+
+- Matlab provides a more elegant solution
+w=[];
+for ii=1:length(v); 
+  if v(ii) >=0 
+  %All elements current in w + v(ii)
+    w = [w v(ii)];
+  end
+end
+
+- The ultimate solution
+
+w = v(v>=0);
+
+- This is an example of logical index
+
+- Prealocation: In no prealoc version, matlab has no ideal how large the matrix a is eventually going to became. 
+So every timewe add a new row, it had to find another place in the memory and copy the entire contents of the current array into the new
+location before it could add the next element. Find a place in memory and reserving it for a var is calle memory allocation. 
+If you prealloc, it will save time for matlab.
+- You time a function with the help of two other functions called tick and tock. 
