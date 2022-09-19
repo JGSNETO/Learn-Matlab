@@ -255,3 +255,27 @@ So every timewe add a new row, it had to find another place in the memory and co
 location before it could add the next element. Find a place in memory and reserving it for a var is calle memory allocation. 
 If you prealloc, it will save time for matlab.
 - You time a function with the help of two other functions called tick and tock. 
+
+## C1_W8
+
+- Limitations of computers:
+1. Real numbers can be infinitly large
+2. Have infinitily fine resolition
+-Computers: Finite memory
+1. Upper limit on the largest number that can be represented 
+2. Lower limit on the absolute value of any non-zero number
+
+- A data type is defined by:
+1. Set of values
+2. Set of operations that can be performed on those values
+
+Double:
+- Floating point representation 
+- 64 bits (8 bytes)
+
+Single:
+- 32-bit floating point 
+
+Integers:
+- Signed, unsigned 
+- 8, 16, 32, 64 - bit long 
