@@ -279,3 +279,48 @@ Single:
 Integers:
 - Signed, unsigned 
 - 8, 16, 32, 64 - bit long 
+
+Strings
+
+Text: String
+We have used strings already:
+- Argument to fprintf and oher functions 
+
+String: vector of char-s
+Numerical type
+- Uses an encoding scheme 
+- Each character ir represented by a number ASCII scheme
+
+Struct
+- An array must be homogeneous:
+- It cannot contain elements of multiple types 
+- A struct can be heterogeneous:
+- It can contain multiple types 
+- Structs are differentfrom arrays:
+1. Fields and not elements
+2. Field names, not indices 
+3. Fields in the same struct can have different types
+
+- Versatility inside: 
+- A field of a struct can contain another struct
+
+Cell
+- Pointers: How to store a page of text?
+- Each line should be a scheme separate string
+- Cannot use an array of chars:
+ 1. Each line would have to have the same length
+ 2. A vector of objects with each refering to one line
+ 
+ - Each variable (scalar, vector, array, etc.) is stored in the computer memory
+ - Each memory location has a unique address
+ - A pointer is a variable that stores an address
+ - Matlab calls a pointer a "cell"
+ 
+ - Matlab has a restrictive pointer model 
+ 1. Stric rules on what can be done with cells
+ 2. Harder to make mistakes
+ - But it is a powerful way to store heterogeneous data
+ 1. Cell arrays
+ 2. Used more frequently that structs
+ - New syntax 
+ 1. To access he data a cell point to, use {}
