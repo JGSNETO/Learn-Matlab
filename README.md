@@ -386,3 +386,17 @@ Reading text files
 - Parsing these strings to get numerical data is much harder
 - Not covered
 - Binary files are more suited for numerical data
+
+Binary Files 
+- Binary files = "Not a text file"
+- Many different ways to represent numbers
+- All we need to know are their types
+- Binary files need to be 
+- Opened with fopen
+- Closed with fclose
+1. r: Open binary file for reading
+2. w: open binary file for writing, discard existing contents
+3. a: open or create binary file writing, append data to end of file
+4. r+: open(do not create) binary file for reading and writing 
+5. w+: open or create binary file for reading and writing, discard existing contents
+6. a+: Open or create binary file for reading and writing; append data to end of file
