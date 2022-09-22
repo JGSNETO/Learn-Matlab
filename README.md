@@ -324,3 +324,65 @@ Cell
  2. Used more frequently that structs
  - New syntax 
  1. To access he data a cell point to, use {}
+
+Cell functions 
+1. cell: create an array of type cell
+2. celldisp: show all the objects pointed at by a cell array
+3. cellfun: apply a function to all the objects pointed at by a cell array
+4. cellplot: show a graphical depiction of the contents of a cell array
+5. cell2atruct: convert a cell array into a struct array
+6. dell: copy a value into output arguments 
+7. iscell: returns true if argument is of type cell
+8. num2cell: convert a numeric array into a cell array
+
+## W9
+
+File I/O
+- File:
+- Area in permanent storage (disk drive)
+- Stores information
+- Managed by the operating system
+- Can be copied or moved 
+- Can be accessed by programs 
+
+- File Input/Output 
+- Data exchange between programs and computers 
+- Data exchange between the physical world and computers
+- Saving your work so you can continue with it later
+
+- Matlab can handle 
+- Mat-files and M-files
+
+- Excel Files
+- Excel is widely used data-analysis tool
+- Many other programs support reading and writing excel files
+- Matlab does too with two built-in functions 
+1. xlsread
+2. xlswrite
+
+- Text file 
+- Text file contain characters 
+- They use an encoding scheme: ASCII
+- before using a text file, we need to open it
+- Once done with the file, we need to close it
+
+- Opening text files:
+1. Opening: fid=fopen(filename, permission)
+2. Closing: fclose(fid)
+- File identifier: A handle to refer to the file once open
+- Permission: What we want to do with the file: Read, Write, overwrite, append
+1. rt: open text file for reading
+2. wt: open text file for writing, discard existing contents
+3. at: open or create text file for writing, append data end of file
+4. r+t: open (do not create) text file for reading and writing 
+5. w + t: open or create file for reading and writing, dscard existing contents
+6. a + t: Open or create text file for reading and writing; append data to end of file
+
+Reading text files
+- One line at a time 
+- Type prints a text file in the command window
+
+- Reading lines into string variables is easy
+- Parsing these strings to get numerical data is much harder
+- Not covered
+- Binary files are more suited for numerical data
