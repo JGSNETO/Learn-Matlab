@@ -255,3 +255,148 @@ So every timewe add a new row, it had to find another place in the memory and co
 location before it could add the next element. Find a place in memory and reserving it for a var is calle memory allocation. 
 If you prealloc, it will save time for matlab.
 - You time a function with the help of two other functions called tick and tock. 
+
+## C1_W8
+
+- Limitations of computers:
+1. Real numbers can be infinitly large
+2. Have infinitily fine resolition
+-Computers: Finite memory
+1. Upper limit on the largest number that can be represented 
+2. Lower limit on the absolute value of any non-zero number
+
+- A data type is defined by:
+1. Set of values
+2. Set of operations that can be performed on those values
+
+Double:
+- Floating point representation 
+- 64 bits (8 bytes)
+
+Single:
+- 32-bit floating point 
+
+Integers:
+- Signed, unsigned 
+- 8, 16, 32, 64 - bit long 
+
+Strings
+
+Text: String
+We have used strings already:
+- Argument to fprintf and oher functions 
+
+String: vector of char-s
+Numerical type
+- Uses an encoding scheme 
+- Each character ir represented by a number ASCII scheme
+
+Struct
+- An array must be homogeneous:
+- It cannot contain elements of multiple types 
+- A struct can be heterogeneous:
+- It can contain multiple types 
+- Structs are differentfrom arrays:
+1. Fields and not elements
+2. Field names, not indices 
+3. Fields in the same struct can have different types
+
+- Versatility inside: 
+- A field of a struct can contain another struct
+
+Cell
+- Pointers: How to store a page of text?
+- Each line should be a scheme separate string
+- Cannot use an array of chars:
+ 1. Each line would have to have the same length
+ 2. A vector of objects with each refering to one line
+ 
+ - Each variable (scalar, vector, array, etc.) is stored in the computer memory
+ - Each memory location has a unique address
+ - A pointer is a variable that stores an address
+ - Matlab calls a pointer a "cell"
+ 
+ - Matlab has a restrictive pointer model 
+ 1. Stric rules on what can be done with cells
+ 2. Harder to make mistakes
+ - But it is a powerful way to store heterogeneous data
+ 1. Cell arrays
+ 2. Used more frequently that structs
+ - New syntax 
+ 1. To access he data a cell point to, use {}
+
+Cell functions 
+1. cell: create an array of type cell
+2. celldisp: show all the objects pointed at by a cell array
+3. cellfun: apply a function to all the objects pointed at by a cell array
+4. cellplot: show a graphical depiction of the contents of a cell array
+5. cell2atruct: convert a cell array into a struct array
+6. dell: copy a value into output arguments 
+7. iscell: returns true if argument is of type cell
+8. num2cell: convert a numeric array into a cell array
+
+## W9
+
+File I/O
+- File:
+- Area in permanent storage (disk drive)
+- Stores information
+- Managed by the operating system
+- Can be copied or moved 
+- Can be accessed by programs 
+
+- File Input/Output 
+- Data exchange between programs and computers 
+- Data exchange between the physical world and computers
+- Saving your work so you can continue with it later
+
+- Matlab can handle 
+- Mat-files and M-files
+
+- Excel Files
+- Excel is widely used data-analysis tool
+- Many other programs support reading and writing excel files
+- Matlab does too with two built-in functions 
+1. xlsread
+2. xlswrite
+
+- Text file 
+- Text file contain characters 
+- They use an encoding scheme: ASCII
+- before using a text file, we need to open it
+- Once done with the file, we need to close it
+
+- Opening text files:
+1. Opening: fid=fopen(filename, permission)
+2. Closing: fclose(fid)
+- File identifier: A handle to refer to the file once open
+- Permission: What we want to do with the file: Read, Write, overwrite, append
+1. rt: open text file for reading
+2. wt: open text file for writing, discard existing contents
+3. at: open or create text file for writing, append data end of file
+4. r+t: open (do not create) text file for reading and writing 
+5. w + t: open or create file for reading and writing, dscard existing contents
+6. a + t: Open or create text file for reading and writing; append data to end of file
+
+Reading text files
+- One line at a time 
+- Type prints a text file in the command window
+
+- Reading lines into string variables is easy
+- Parsing these strings to get numerical data is much harder
+- Not covered
+- Binary files are more suited for numerical data
+
+Binary Files 
+- Binary files = "Not a text file"
+- Many different ways to represent numbers
+- All we need to know are their types
+- Binary files need to be 
+- Opened with fopen
+- Closed with fclose
+1. r: Open binary file for reading
+2. w: open binary file for writing, discard existing contents
+3. a: open or create binary file writing, append data to end of file
+4. r+: open(do not create) binary file for reading and writing 
+5. w+: open or create binary file for reading and writing, discard existing contents
+6. a+: Open or create binary file for reading and writing; append data to end of file
