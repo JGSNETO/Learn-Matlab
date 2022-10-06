@@ -12,3 +12,10 @@
 ### Inspecting Signals 
 
 - Reading the value of a signal is an important aspect of understanding and debugging simulations. 
+
+### Obtaining Help
+
+- Documentation for specific blocks can be accessed directly from Simulink. In the Block Parameters dialog (accessible by double-clicking a block), there are two ways to get help:
+ 
+1. The block description: a short overview of the basic functions of the block.
+2. The Help button: opens the documentation page for that block.
