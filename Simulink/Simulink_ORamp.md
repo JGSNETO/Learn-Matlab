@@ -19,3 +19,9 @@
  
 1. The block description: a short overview of the basic functions of the block.
 2. The Help button: opens the documentation page for that block.
+
+### Simualtion time and Step Size
+
+- When Simulink runs a simulation, it numerically solves the dynamic equations represented in the model. Characteristics of dynamic systems can vary widely; for example, they can be discrete, continuous, fast, and slow. To account for this, there are many types of numerical solvers.
+- Simulink knows how to assess the properties of your system and automatically select a good solver for you. However, the auto-solver cannot determine how long your simulation should run. For example, the two systems below have different dynamics. To accurately capture the interesting behavior, the slow system (left) should be run for more time, and the fast system (right) for less.
+ 
