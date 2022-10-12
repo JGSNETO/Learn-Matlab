@@ -400,3 +400,6 @@ Binary Files
 4. r+: open(do not create) binary file for reading and writing 
 5. w+: open or create binary file for reading and writing, discard existing contents
 6. a+: Open or create binary file for reading and writing; append data to end of file
+
+# Mastering Programming with MATLAB 
+
