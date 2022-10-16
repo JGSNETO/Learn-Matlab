@@ -403,5 +403,9 @@ Binary Files
 
 # Mastering Programming with MATLAB 
 
+## W1
 - Recursionis having a function calling himself
 - Most commong case if Factorial 
+- Every recursive implementation has an iterative version
+- Iterative is almost always faster than recursive 
+- But often the recursive version is easier to implement 
