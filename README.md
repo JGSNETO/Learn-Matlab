@@ -416,4 +416,4 @@ Binary Files
 - Call a function through a variable: Function handles
 - A normal function is a function name and can have any number of statements in it body.
 - An anonymous functions has no name, and it can have only one statement in its body. Also, if you wanto to have multiple outputs from an anonymous func, its one executable statement has to be a call to a function that already returns multiple outputs. 
-- Nested function: It's similar to a sub-function in that it lives in an M-file with a main function, just like a su-function does. However, a nested function is actually defined inside the body of another function, also called its parent function. 
+- Nested function: It's similar to a sub-function in that it lives in an M-file with a main function, just like a su-function does. However, a nested function is actually defined inside the body of another function, also called its parent function. Makes easier to pass information back and forth functions. 
