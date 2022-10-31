@@ -417,3 +417,21 @@ Binary Files
 - A normal function is a function name and can have any number of statements in it body.
 - An anonymous functions has no name, and it can have only one statement in its body. Also, if you wanto to have multiple outputs from an anonymous func, its one executable statement has to be a call to a function that already returns multiple outputs. 
 - Nested function: It's similar to a sub-function in that it lives in an M-file with a main function, just like a su-function does. However, a nested function is actually defined inside the body of another function, also called its parent function. Makes easier to pass information back and forth functions. 
+
+## W3
+
+- Mixed mode arithmetic: Mixed different data types in expressions(E.g: Double and float)
+- Binary Arithmetic Operations: X op Y
+1. +/-: x and y have the same size and shape
+2. *: Size(x,2) equals size(y,1)
+3. \: Size(x,1) equals size(y,1)
+4. /: Size(x,2) equals size(y,2)
+5. ^: x and y are square and at least one is scalar
+
+- Binary arithmetic operations X, Y(Type shaped combinations)
+1. x,y = floating point numbers -> All
+2. x,y = scalars: integers of same type or integer and double -> All
+3. x=integer array, y=scalar integer of same type or scalar double -> All except \ and ^
+4. y=integer array, x=scalar integer of same type or scalar double -> All except / and ^
+5. x,y=non-scalar integers of the same type -> +,- and .op
+6. x,y = integers of different types or integer and single -> none
