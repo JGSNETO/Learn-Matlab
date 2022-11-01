@@ -435,3 +435,17 @@ Binary Files
 4. y=integer array, x=scalar integer of same type or scalar double -> All except / and ^
 5. x,y=non-scalar integers of the same type -> +,- and .op
 6. x,y = integers of different types or integer and single -> none
+
+- Linear equations:
+- Use backslash: \
+- If matlab do not find a good solution means there is not good solution 
+- If a system with more equations than unknowns is over-determined, it's under-determined, and we are going to see what the backslash operator does with under-determined equations right now. 
+- Ill-Conditioned: The solution it is not stable. You change one variabl 10% and another change 50%. 
+- Test stability: Function cond 
+
+- Live Script: Way of embedding MATLAB code in documents
+- Scripts vs functions:
+1. Scripts have no workspace of their own
+2. They use the workspace they are invoked from, typically that of the command window
+3. Hence, they may create new and modify existing variables of that workspace 
+4. Scripts have no input or output arguments
