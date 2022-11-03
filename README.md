@@ -449,3 +449,11 @@ Binary Files
 2. They use the workspace they are invoked from, typically that of the command window
 3. Hence, they may create new and modify existing variables of that workspace 
 4. Scripts have no input or output arguments
+
+- Error Handling
+- error('Error message')
+- Exception = an error that occurs in some part of a program.
+- Exception handling = running code that is executed only when an exception occurs in that part of program 
+- Past methods error handling 
+1. MATLAB error messages to help us debug our code
+2. If-statements to examine input for errors
