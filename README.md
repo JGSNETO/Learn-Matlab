@@ -462,4 +462,8 @@ Binary Files
 
 - timeit(@() my_flip(1:10)); The @ operator followed by empty parenthesis creates a function handle to an anonymous function. That is a function with no name that takes no arguments. The body of the anonymous function must be just one command. 
 - The branch of computer science dedicated to the study of algorithm complexity: Complexity Theory or algorithms. 
+- To improve an algorithm, start by asking this simple questions:
+1. is it doing any unnecessary work ? 
+2. Speedup without requiring extra memory
+3. By taking advantage of the characteristics of the typical input to avoid unnecessary calculations 
   
