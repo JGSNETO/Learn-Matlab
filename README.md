@@ -478,3 +478,21 @@ Binary Files
 - Many slow MATLAB functions can be changed into fast functions by replacing explicit loops with operations or functions that operate on entire arrays via implicit loops
 - Vector commnand : Any operator or function that operates on an entire vector or entire array is said to be a vector command
 - Vectorization: The translation of code from a version uses explicit looping to one that uses a vector command
+
+- repmat: Replicating matrices. The replication of matrix by rows means that repeating a matrix one or more times but row-wise. For example, if we have a matrix that contains only one row and three columns then the replication of that matrix three times will repeat that one row three times.
+
+- A recursion is an elegant way to solve many problems it can come with a performance penalty. 
+
+- Modes of passing arguments:
+1. Call by value:
+- Copy of argument is placed on the stack
+- Changes to arguments in function leave actual argument unchanged
+- Copying large arrays takes lots of times and lots of memory
+
+2. Call by reference 
+- Pointer to argument is placed on the stack
+
+
+- Parfor: Parallel for-loop
+- Parfor makes sense only if the body of the loop is slow enough to make up for the extra time required by parfor. 
+
