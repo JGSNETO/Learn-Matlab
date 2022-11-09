@@ -466,4 +466,15 @@ Binary Files
 1. is it doing any unnecessary work ? 
 2. Speedup without requiring extra memory
 3. By taking advantage of the characteristics of the typical input to avoid unnecessary calculations 
-  
+
+- MATLAB and implicit looping
+- MATLAB invented by cleve moler to work with matrices and arrays 
+1. MOLER
+- Expert in numerical computation
+- Used the notation of numerical computation
+- Notation implied loops that were not written out 
+- Computer language should incorporate that notation 
+- MATLAB gets implicit looping 
+- Many slow MATLAB functions can be changed into fast functions by replacing explicit loops with operations or functions that operate on entire arrays via implicit loops
+- Vector commnand : Any operator or function that operates on an entire vector or entire array is said to be a vector command
+- Vectorization: The translation of code from a version uses explicit looping to one that uses a vector command
