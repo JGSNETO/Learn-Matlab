@@ -493,6 +493,27 @@ Binary Files
 - Pointer to argument is placed on the stack
 
 
-- Parfor: Parallel for-loop
+- Parfor: Parallel for-loop: https://www.mathworks.com/help/matlab/ref/parfor.html
 - Parfor makes sense only if the body of the loop is slow enough to make up for the extra time required by parfor. 
+
+### Intro OOP
+
+- Easier to manage data and modify code.
+- OOP is data-centered
+- Data is stored inside an "object"
+- Object is like a struct with extra features
+- Object can contain functions
+- Object is stored in a variable 
+- Object type must be defined by user
+- User-defined type="class"
+- Classes are defined using keyword classdef
+- Function definitions inside a class: methods 
+- Constructor is a method that creates an object and gives value to his properties at the same time 
+classdef
+  properties 
+  methods
+    Constructor
+    Access method
+      -set-access method
+      -get-access method  
 
