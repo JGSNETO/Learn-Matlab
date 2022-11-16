@@ -515,5 +515,12 @@ classdef
     Constructor
     Access method
       -set-access method
-      -get-access method  
+      -get-access method
+      
+#### Handle classes
+- Linked list: Consist of a set of individual elements linked into a chain. Each element, which in computer science terminology is ssometimes called a node, stores some data and it also has a field typically called next that points to the next element in the chain. Begins with head and finish with empty array. 
+- Doubly linked list: Same as linked list + prev field. Points to the next and prev. 
+- Handle class: Something that grants access to something else with the important difference that you get access to an object. 
+- When you sign assign a handle object to a variable, the variable gets a pointer to the object instead of the object itself. Matlab allows two handle variables point to the same handle object. 
+- If you want to use the value class method to change a property, it must return the object as an output argument. 
 
