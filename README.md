@@ -524,3 +524,8 @@ classdef
 - When you sign assign a handle object to a variable, the variable gets a pointer to the object instead of the object itself. Matlab allows two handle variables point to the same handle object. 
 - If you want to use the value class method to change a property, it must return the object as an output argument. 
 
+### GUI 
+
+- Graphical User Interface: Is an interface that allows a user to interact with the computer application through various graphical objects, such as icons. 
+- Matlab tool to help build gui: App designer 
+- Applications based on gui: Apps
